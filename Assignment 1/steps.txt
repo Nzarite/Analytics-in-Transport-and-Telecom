@@ -1,0 +1,11 @@
+Write a very modular code, i.e., use a separate function for each task. Follow the steps given below.
+
+Step 1: While coding the cutting stock problem, the input has to be read through a text file. All the variable/array used in the code must be implemented using dynamic memory allocation. A sample input file is attached.
+Step 2: Write a module/function to develop some initial patterns (at least equal to the number of types of demand).
+Step 3: Write a module to create an LP problemÂ in CPLEX which will be the master problem. Populate the initial patterns as constraints.
+Step 4: Write a module to create another LP problem in CPLEX and change it to MIP. This will be the subproblem / Knapsack problem. This subproblem will have only one constraint.
+Step 5: Write a module in which the column generation technique will run, i.e., master problem will be solved, then access its dual values and use it to update the objective function of the subproblem. Then solve the subproblem. Check the objective function of the subproblem to find if a new pattern is generated or not. If a new pattern is found, add it as a column in the master problem. This iteration/loop will continue in this module.
+
+You should not write any code to compute matrix inversion or implement the simplex method. Solving the simplex method and branch-and-bound will be done by CPLEX. The dual values have to be directly obtained from CPLEX.
+
+A log file has to be maintained to save the new patterns generated and improvement in the objective value at every iteration. Finally, the output of the problem has to be written in a text file, a sample of which is attached.
