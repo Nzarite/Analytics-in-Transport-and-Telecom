@@ -1,0 +1,48 @@
+Initial Patterns added to the master problem
+1 0 0 0 0 0 
+0 2 0 0 0 0 
+0 0 3 0 0 0 
+0 0 0 4 0 0 
+0 0 0 0 5 0 
+0 0 0 0 0 10 
+
+Iteration 1:
+Objective value of the master-problem: 821.767
+Dual values: [1, 0.5, 0.333333, 0.25, 0.2, 0.1]
+Objective value of the sub-problem: -0.5
+New Pattern generated: [1, 1, 0, 0, 0, 0]
+
+Iteration 2:
+Objective value of the master-problem: 696.767
+Dual values: [0.5, 0.5, 0.333333, 0.25, 0.2, 0.1]
+Objective value of the sub-problem: -0.25
+New Pattern generated: [0, 2, 0, 1, 0, 0]
+
+Iteration 3:
+Objective value of the master-problem: 676.142
+Dual values: [0.625, 0.375, 0.333333, 0.25, 0.2, 0.1]
+Objective value of the sub-problem: -0.1
+New Pattern generated: [0, 0, 3, 0, 0, 1]
+
+Iteration 4:
+Objective value of the master-problem: 667.375
+Dual values: [0.625, 0.375, 0.3, 0.25, 0.2, 0.1]
+Objective value of the sub-problem: -0.075
+New Pattern generated: [1, 0, 0, 1, 1, 0]
+
+Iteration 5:
+Objective value of the master-problem: 648.625
+Dual values: [0.55, 0.375, 0.3, 0.25, 0.2, 0.1]
+Objective value of the sub-problem: -0.05
+New Pattern generated: [0, 0, 0, 1, 4, 0]
+
+Iteration 6:
+Objective value of the master-problem: 646.837
+Dual values: [0.5625, 0.375, 0.3, 0.25, 0.1875, 0.1]
+Objective value of the sub-problem: -0.0375
+New Pattern generated: [0, -0, 0, 3, 1, 1]
+
+Iteration 7:
+Objective value of the master-problem: 644.875
+Dual values: [0.5625, 0.375, 0.3125, 0.25, 0.1875, 0.0625]
+Objective value of the sub-problem: -2.22045e-16
